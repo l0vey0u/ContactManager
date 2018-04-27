@@ -77,7 +77,7 @@ public class ContactManager {
 			}
 		}
 		phoneBook.add(new Contact(name, age, phoneNum));
-		System.out.println(phoneBook.get(0).getName() + phoneBook.get(0).getAge() + phoneBook.get(0).getPhoneNum());
+		//System.out.println(phoneBook.get(0).getName() + phoneBook.get(0).getAge() + phoneBook.get(0).getPhoneNum());
 	}
 
 	public void delete() {
