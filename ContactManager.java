@@ -56,7 +56,7 @@ public class ContactManager {
 		int age;
 		boolean isDuplicate = true;
 		System.out.print("이름: ");
-		name = scanner.next();
+		name = scanner.nextLine();
 		System.out.print("나이: ");
 		age = scanner.nextInt();
 		// clearBuffer
